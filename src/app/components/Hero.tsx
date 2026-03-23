@@ -86,7 +86,7 @@ export function Hero() {
                 className="relative size-72 md:size-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl backdrop-blur-xl bg-white/5"
               >
                 <ImageWithFallback
-                  src="/Users/yuvrajsingh/Documents/portfolio_version_02/src/image/img.jpeg"
+                  src="src/image/img.jpeg"
                   alt="Profile"
                   className="size-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
