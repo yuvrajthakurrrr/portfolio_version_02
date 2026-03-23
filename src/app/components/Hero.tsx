@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Github, Linkedin, Mail, MapPin, ArrowDown } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import profileImage from '../../image/img.jpeg';
 
 export function Hero() {
   return (
@@ -86,7 +87,7 @@ export function Hero() {
                 className="relative size-72 md:size-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl backdrop-blur-xl bg-white/5"
               >
                 <ImageWithFallback
-                  src="src/image/img.jpeg"
+                  src={profileImage}
                   alt="Profile"
                   className="size-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
