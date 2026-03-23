@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => {
   // For GitHub Pages deployment, set base to your repo name
-  // Example: if your repo is https://github.com/username/rag-ui
-  // then set base: '/rag-ui/'
+  // Example: if your repo is https://github.com/username/portfolio_version_02
+  // then set base: '/portfolio_version_02/'
   // For custom domain or root deployment, use base: '/'
-  const base = command === 'build' ? '/' : '/'
+  const base = command === 'build' ? '/portfolio_version_02/' : '/'
   
   return {
     base,
