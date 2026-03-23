@@ -123,7 +123,7 @@ export function Hero() {
                   whileHover={{ scale: 1.05 }}
                   className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent inline-block cursor-default"
                 >
-                  Your Name
+                  Yuvraj Singh
                 </motion.span>
               </motion.h1>
 
