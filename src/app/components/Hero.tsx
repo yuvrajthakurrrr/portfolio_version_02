@@ -86,7 +86,7 @@ export function Hero() {
                 className="relative size-72 md:size-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl backdrop-blur-xl bg-white/5"
               >
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1653732212701-b729f0b08330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDF8fHx8MTc3NDE1MjA5M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="/Users/yuvrajsingh/Documents/portfolio_version_02/src/image/img.jpeg"
                   alt="Profile"
                   className="size-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
