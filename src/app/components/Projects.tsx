@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     title: 'RAG Intelligence Suite - (Under Development)',
     description: 'Enterprise-grade document intelligence system with advanced AI retrieval. Features real-time document processing pipeline, ChromaDB vector storage, and sophisticated chat interface with glass morphism UI.',
-    image: 'src/image/rag_system.png',
+    image: 'https://raw.githubusercontent.com/yuvrajthakurrrr/portfolio_version_02/main/src/image/rag_system.png',
     tags: ['Python', 'Vector Embeddings','ChromaDB', 'LLMs', 'Langchain', 'RAG Methodology'],
     liveUrl: '#',
     githubUrl: '#',
@@ -25,7 +25,7 @@ const projects: Project[] = [
   {
     title: 'Naukri Profile Updater',
     description: 'Built a fully automated system that extracts content from a LaTeX resume and updates a Naukri profile daily. Reduced profile maintenance time to zero by automating the entire process.',
-    image: 'src/image/naukri_profile_updater.png',
+    image: 'https://raw.githubusercontent.com/yuvrajthakurrrr/portfolio_version_02/main/src/image/naukri_profile_updater.png',
     tags: ['LLMs', 'Generative AI', 'Python', 'Langchain','Selenium'],
     liveUrl: '#',
     githubUrl: 'https://github.com/yuvrajthakurrrr/naukri_automation',
