@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 'Built a fully automated system that extracts content from a LaTeX resume and updates a Naukri profile daily. Reduced profile maintenance time to zero by automating the entire process.',
     image: 'https://raw.githubusercontent.com/yuvrajthakurrrr/portfolio_version_02/main/src/image/naukri_profile_updater.png',
     tags: ['LLMs', 'Generative AI', 'Python', 'Langchain','Selenium'],
-    liveUrl: '#',
+    liveUrl: 'https://github.com/yuvrajthakurrrr/naukri_automation',
     githubUrl: 'https://github.com/yuvrajthakurrrr/naukri_automation',
   }
 ];
