@@ -15,46 +15,44 @@ const experiences: ExperienceItem[] = [
   {
     company: 'NUVO RETAIL',
     role: 'Jr. Data Engineer',
-    period: 'Aug 2024 - Present',
+    period: 'FEB 2025 - Present',
     location: 'Delhi, IN',
-    description: 'Document Intelligence System using RAG and LLMs to extract insights from unstructured data.',
+    description: 'Built Data Pipelines from various Ecommerce and Quick Commerce platforms | Document Intelligence System using RAG and LLMs',
     achievements: [
       'Designed and implemented an end-to-end RAG pipeline integrating vector databases and LLMs for accurate retrieval from text documents',
-      'Optimized embedding and retrieval logic, improving answer relevance and reducing hallucinations significantly',
-      'Built scalable APIs using FastAPI to handle high-volume document queries with low latency',
-      'Automated document ingestion pipeline supporting PDFs, text docs, and structured data sources',
+      'Design and maintain complex data pipelines to extract, transform, and load product, pricing, and inventory data from various source systems into structured data warehouses for analytics and reporting.',
+      'Orchestrate automated ETL workflows using Python and SQL, incorporating robust error handling, session management, and data validation to ensure high data integrity and reliability.',
       'Collaborated with cross-functional teams to integrate the system into production workflows',
     ],
-    technologies: ['Python', 'Azure', 'ChromaDB', 'FastAPI', 'LLM', 'RAG', 'React','Figma Ai Builder'],
+    technologies: ['Python', 'Selenium', 'Backend APIs','Azure', 'ChromaDB', 'FastAPI', 'LLM', 'RAG', 'Web Automation'],
   },
   {
-    company: 'Innovation Labs',
-    role: 'Full Stack Developer',
-    period: 'Jun 2021 - Dec 2022',
-    location: 'Remote',
-    description: 'Developed scalable web applications and RESTful APIs for diverse clients.',
+    company: 'NUVO RETAIL',
+    role: 'Data Analyst Trainee',
+    period: 'AUG 2024 - FEB 2025',
+    location: 'Delhi, IN',
+    description: 'Developed Scalable Data Pipelines, Implemented AI Solutions and System Automations.',
     achievements: [
-      'Built 15+ production-ready web applications using React and Node.js',
-      'Implemented real-time features using WebSocket connections and event-driven architecture',
-      'Collaborated with cross-functional teams to deliver projects on time and under budget',
-      'Established coding standards and best practices improving code quality by 40%',
-    ],
-    technologies: ['React', 'Node.js', 'MongoDB', 'AWS', 'Docker'],
+      'Built a data pipeline to gathered the data of pan india level bakery resturants listed on swiggy portal and validate their FSSAI license numbers via the official FSSAI portal, enabling a client to target compliant businesses.',
+      'Automated data extraction and validation processes using Python and Selenium, and implemented logger for monitoring and debugging, and improved data accuracy.',
+      'built a image categorization system to categorize the product images into various categories such as product_image, detai_image, life_style_image',
+],
+    technologies: ['Python', 'Azure Data Studio', 'Azure VMs', 'Web Automation', 'LLMs', 'Selenium','Image to Text Model'],
   },
-  {
-    company: 'StartUp Inc',
-    role: 'Frontend Developer',
-    period: 'Jan 2020 - May 2021',
-    location: 'New York, NY',
-    description: 'Created responsive and accessible user interfaces for SaaS platform.',
-    achievements: [
-      'Redesigned main product UI improving user engagement by 35%',
-      'Implemented comprehensive component library reducing development time by 50%',
-      'Achieved 98+ Lighthouse scores for performance and accessibility',
-      'Contributed to open-source projects and internal tooling',
-    ],
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Jest', 'Storybook'],
-  },
+  // {
+  //   company: 'StartUp Inc',
+  //   role: 'Frontend Developer',
+  //   period: 'Jan 2020 - May 2021',
+  //   location: 'New York, NY',
+  //   description: 'Created responsive and accessible user interfaces for SaaS platform.',
+  //   achievements: [
+  //     'Redesigned main product UI improving user engagement by 35%',
+  //     'Implemented comprehensive component library reducing development time by 50%',
+  //     'Achieved 98+ Lighthouse scores for performance and accessibility',
+  //     'Contributed to open-source projects and internal tooling',
+  //   ],
+  //   technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Jest', 'Storybook'],
+  // },
 ];
 
 export function Experience() {
@@ -257,7 +255,7 @@ export function Experience() {
           className="text-center mt-12"
         >
           <motion.a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1t7LEQSTnhcCgJXlgtz3-u2aZ3tPdWMX4/view?usp=drive_link"
             download
             whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgb(59 130 246 / 0.5)" }}
             whileTap={{ scale: 0.95 }}

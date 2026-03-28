@@ -11,20 +11,20 @@ import {
 } from 'lucide-react';
 
 const skillCategories = [
-  {
-    title: 'Frontend Development',
-    icon: Code2,
-    skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js'],
-    color: 'from-blue-500 to-cyan-500',
-  },
+  // {
+  //   title: 'Frontend Development',
+  //   icon: Code2,
+  //   skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js'],
+  //   color: 'from-blue-500 to-cyan-500',
+  // },
   {
     title: 'Backend Development',
     icon: Database,
-    skills: ['Python', 'FastAPI', 'PostgreSQL'],
+    skills: ['Python', 'FastAPI', 'SQL Server', 'MongoDB'],
     color: 'from-green-500 to-emerald-500',
   },
   {
-    title: 'Cloud & DevOps',
+    title: 'Cloud',
     icon: Cloud,
     skills: ['Azure', 'Web App Service', 'Azure Datalake', 'CI/CD'],
     color: 'from-purple-500 to-pink-500',
@@ -35,16 +35,16 @@ const skillCategories = [
     skills: ['LangChain', 'ChromaDB', 'RAG Systems', 'OpenAI', 'PyTorch', 'LLM Fine-tuning'],
     color: 'from-orange-500 to-red-500',
   },
-  {
-    title: 'Architecture',
-    icon: Layers,
-    skills: ['Microservices', 'REST APIs', 'GraphQL', 'System Design'],
-    color: 'from-indigo-500 to-blue-500',
-  },
+  // {
+  //   title: 'Architecture',
+  //   icon: Layers,
+  //   skills: ['Microservices', 'REST APIs', 'GraphQL', 'System Design'],
+  //   color: 'from-indigo-500 to-blue-500',
+  // },
   {
     title: 'Tools & Workflow',
     icon: GitBranch,
-    skills: ['Git', 'GitHub Actions', 'Figma', 'VS Code'],
+    skills: ['Git', 'GitHub Actions', 'Mind Meister','VS Code', 'Selenium','Data Automation'],
     color: 'from-yellow-500 to-amber-500',
   },
 ];

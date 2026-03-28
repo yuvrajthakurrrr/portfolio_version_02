@@ -14,38 +14,22 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'RAG Intelligence Suite',
+    title: 'RAG Intelligence Suite - (Under Development)',
     description: 'Enterprise-grade document intelligence system with advanced AI retrieval. Features real-time document processing pipeline, ChromaDB vector storage, and sophisticated chat interface with glass morphism UI.',
-    image: 'https://images.unsplash.com/photo-1675557009875-436f71457475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzc0MTY1Njk0fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    tags: ['Python', 'React', 'ChromaDB', 'Azure', 'RAG'],
+    image: 'https://drive.google.com/file/d/1B_7BdUpjfiZBhh-GfXXisCcZ5szBeE8a/view?usp=drive_link',
+    tags: ['Python', 'Vector Embeddings','ChromaDB', 'LLMs', 'Langchain', 'RAG Methodology'],
     liveUrl: '#',
     githubUrl: '#',
     featured: true,
   },
   {
-    title: 'Analytics Dashboard',
-    description: 'Real-time data visualization dashboard with interactive charts, custom reporting, and advanced filtering. Built with modern React and Recharts for seamless data exploration.',
-    image: 'https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzQxMjY2NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    tags: ['React', 'TypeScript', 'Recharts', 'Tailwind'],
+    title: 'Naukri Profile Updater',
+    description: 'Built a fully automated system that extracts content from a LaTeX resume and updates a Naukri profile daily. Reduced profile maintenance time to zero by automating the entire process.',
+    image: 'https://drive.google.com/file/d/1rFtnbl1mf-1pY1yPdeccBabZG8pyQ912/view?usp=drive_link',
+    tags: ['LLMs', 'Generative AI', 'Python', 'Langchain','Selenium'],
     liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Cloud Platform',
-    description: 'Scalable cloud-native application platform with microservices architecture, automated deployment pipelines, and comprehensive monitoring solutions.',
-    image: 'https://images.unsplash.com/photo-1721444127971-b7d0023bbef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMHRlY2hub2xvZ3klMjBhYnN0cmFjdHxlbnwxfHx8fDE3NzQxMTE5NDd8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    tags: ['Azure', 'Docker', 'Kubernetes', 'Node.js'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Modern Web App',
-    description: 'Feature-rich web application with responsive design, real-time updates, and optimized performance. Implements modern best practices and accessibility standards.',
-    image: 'https://images.unsplash.com/photo-1717996563514-e3519f9ef9f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGludGVyZmFjZXxlbnwxfHx8fDE3NzQxNTQ5ODd8MA&ixlib=rb-4.1.0&q=80&w=1080',
-    tags: ['Next.js', 'React', 'PostgreSQL', 'Prisma'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
+    githubUrl: 'https://github.com/yuvrajthakurrrr/naukri_automation',
+  }
 ];
 
 export function Projects() {
